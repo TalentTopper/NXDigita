@@ -99,6 +99,14 @@ export const Navbar = () => {
               >
                 Get Started
               </a>
+<a
+  href="https://onboard.nxdigita.com/"
+  onClick={() => setIsMobileMenuOpen(false)}
+  className="px-5 py-3 text-center rounded-full border border-[#E95D2A] text-[#E95D2A] font-semibold"
+>
+  Start Your Internship
+</a>
+
             </div>
           </nav>
 
@@ -148,6 +156,12 @@ export const Navbar = () => {
                 className="mt-4 px-5 py-3 text-center rounded-full bg-gradient-to-r from-secondary to-accent text-white font-medium"
               >
                 Get Started
+              </a>
+              <a
+                href="https://onboard.nxdigita.com/"
+                className="px-5 py-2.5 rounded-full border border-[#E95D2A] text-[#E95D2A] text-sm font-semibold hover:bg-[#E95D2A]/10 transition-all hover:-translate-y-0.5"
+              >
+                Start Your Internship
               </a>
             </div>
           </motion.div>
