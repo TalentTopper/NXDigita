@@ -100,7 +100,7 @@ export const Navbar = () => {
                 Get Started
               </a>
 <a
-  href="https://onboard.nxdigita.com/"
+  href="https://www.onboard.nxdigita.com/"
   onClick={() => setIsMobileMenuOpen(false)}
   className="px-5 py-3 text-center rounded-full border border-[#E95D2A] text-[#E95D2A] font-semibold"
 >
