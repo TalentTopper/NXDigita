@@ -13,13 +13,13 @@ import { Industries } from '@/components/sections/Industries';
 import { TechStack } from '@/components/sections/TechStack';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { BlogPreview } from '@/components/sections/BlogPreview';
+import { PhotoCarousel } from '@/components/sections/PhotoCarousel';
 import { CallToAction } from '@/components/sections/CallToAction';
 
 export const Home = () => {
   return (
     <main className="min-h-screen overflow-hidden">
       <Navbar />
-      
       <Hero />
       <TrustedBy />
       <About />
@@ -32,6 +32,7 @@ export const Home = () => {
       <TechStack />
       <Testimonials />
       <BlogPreview />
+      <PhotoCarousel />
       <CallToAction />
       
       <Footer />
